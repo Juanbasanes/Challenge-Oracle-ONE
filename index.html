@@ -14,29 +14,39 @@
         
         <h1>Desencriptador</h1>
 
-            <section id="Encriptador">
+            <section id="izquierda">
 
                 <div class=entrada">
                     
                     <div class="texto"
                         <label for="texto">Texto a encriptar/desencriptar:</label>
-                        <textarea name="Encriptador/Desencriptador" id="Encriptador" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                        <textarea name="Entrada" id="entrada" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
                     </div>  
 
                     <div class="botones">
-                        <button type="button" id="Encriptar" onclick="encriptar()">Encriptar</button>
-                        <button type="button" id="Desencriptar" onclick="desencriptar()">Desencriptar</button>
+                        <button type="button" id="encriptar" onclick="encriptar()">Encriptar</button>
+                        <button type="button" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
                     </div>
 
                 </div>
             
             </section>
 
-            <section id="salida">
+            <section id="derecha">
 
-                <label for="Resultado">Resultado:</label>
-                <textarea name="resultado" id="Resultado" placeholder="Resultado: " cols="40" rows="10" >
-            
+                <div class="resultado">
+                <label for="resultado">Resultado:</label>
+                <textarea name="Resultado" id="resultado" placeholder="Resultado: " cols="40" rows="10" >
+                </div>
+
+                <div class="copiar">
+                <button type="button" name="Copiar" id="copiar" onclick="copiarTexto()">Copiar</button>
+                </div>
+
+                <div class="limpiar">
+                <button type="button" name="Limpiar" id="limpiar" onclick="LimpiarTexto()">Limpiar</button>
+                </div>
+
             </section>
 
          <script src="script.js"></script>
