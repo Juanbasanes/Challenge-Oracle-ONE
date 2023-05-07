@@ -25,5 +25,4 @@ function encriptar() {
     //Salida del encriptado
     document.getElementById("resultado").value = resultado;
     document.getElementById("no-mensaje").style.display = "none";
-  }
-  
+}
