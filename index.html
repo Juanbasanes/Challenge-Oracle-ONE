@@ -1,65 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="style.css" rel="stylesheet" />
-
+    
     <head>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" />
+    
         <title>Challenge Encriptador</title>
+    
     </head>
 
     <body>
         
         <h1>Challenge Encriptador</h1>
 
-            <section id="izquierda">
+        <div id="izquierda">
 
-                <div class="entrada">
-                    
-                    <div class="texto">
-                        <label for="texto">Texto a encriptar/desencriptar:</label>
-                        <textarea name="Entrada" id="entrada" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
-                    </div>  
+            <div class="entrada">
 
-                    <div class="botones">
-                        <button type="button" id="encriptar" onclick="encriptar()">Encriptar</button>
-                        <button type="button" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
-                    </div>
+                <div class="texto">
+                    <label for="texto">Texto a encriptar/desencriptar:</label>
+                    <textarea name="Entrada" id="entrada" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                </div>  
 
-                </div>
-            
-            </section>
-
-            <section id="derecha">
-        
-                <div class="resultado">
-                    <label for="resultado">Resultado:</label>
-                    <textarea name="Resultado" id="resultado" placeholder="Resultado: " cols="40" rows="10"></textarea>
+                <div class="botones">
+                    <button type="button" id="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
                 </div>
 
-                <div class="copiar">
-                    <button type="button" name="Copiar" id="copiar" onclick="copiarTexto()">Copiar</button>
-                    <p class="copiado" id="mensajeCopiado">Texto copiado correctamente!</p>
-                </div>
+            </div>
 
-                <div class="limpiar">
-                    <button type="button" name="Limpiar" id="limpiar" onclick="LimpiarTexto()">Limpiar</button>
-                    <p class="limpiado" id="mensajeLimpiado">Texto limpiado correctamente!</p>
-                </div>
+        </div>
 
-            </section>
+        <div id="derecha">
 
-            <section id="footer">
-                <footer>
-                    <p>Autor: Juan Basanes Cantoni <br>
-                        <a href="https://github.com/juanbasanes">Perfil de git</a> </p>
-                </footer>
-            </section>
+            <div class="resultado">
+                <label for="resultado">Resultado:</label>
+                <textarea name="Resultado" id="resultado" placeholder="Resultado: " cols="40" rows="10"></textarea>
+            </div>
 
-            <script src="script.js"></script>
+            <div class="copiar">
+                <button type="button" name="Copiar" id="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+
+        </div>
+
+        </section>
+
+        <section id="footer">
+            <footer>
+                <p>Autor: Juan Basanes Cantoni <br>
+                    <a href="https://github.com/juanbasanes">Perfil de git</a> </p>
+            </footer>
+        </section>
+
+        <script src="script.js"></script>
             
     </body>
 </html>
-        
