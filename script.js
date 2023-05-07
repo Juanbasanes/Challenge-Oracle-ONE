@@ -75,3 +75,19 @@ function desencriptar() {
     document.getElementById("no-mensaje").style.display = "none";
 
 }
+
+function copiarTexto() {
+  let resultado = document.getElementById("resultado");
+  
+  // Seleccionar el texto en el area de resultado
+  resultado.select();
+  
+  // Copiar el texto seleccionado
+  document.execCommand("copy");
+  
+  // Desmarcar la selección de texto
+  window.getSelection().removeAllRanges();
+
+  alert("El resultado ha sido copiado al portapapeles.");
+
+}
