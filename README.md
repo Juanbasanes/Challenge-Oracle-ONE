@@ -4,7 +4,7 @@ Para probar el encriptador ingresa.
 https://github.com/Juanbasanes/challenge-oracle-decoder
 
 Para el programa ORACLE ONE NEXT EDUCATION    
-https://www.oracle.com/mx/education/oracle-next-education/
+
 <div align="center">
     <img src="https://img.shields.io/badge/JavaScript-FEFF01?logo=javascript&logoColor=000000&style=for-the-badge"/>
     <img src="https://img.shields.io/badge/HTML-EC6231?logo=html5&logoColor=FFFFFF&style=for-the-badge" />
